@@ -34,6 +34,9 @@ header {
     border-radius: 20px;
 }
 
+img {
+    width: 100%;
+}
 /* top header */
 
 
@@ -140,10 +143,19 @@ ul {
 
 .aside-col {
     background-color: pink;
-    width: 24%;
+    width: 24%;;
+    padding: 10px 30px;
 
     /* test */
     height: 80%;
+}
+
+.aside-col h2 {
+    margin: 20px 0;
+}
+
+.aside-col p {
+    font-size: 14px;
 }
 
 .big-col {
