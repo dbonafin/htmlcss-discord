@@ -192,9 +192,18 @@ ul {
 /* footer */
 footer {
     background-color: black;
-
-    /* test */
     height: 450px;
+    color: white;
+    font-size: 12px;
+}
+
+footer h2, h3 {
+    color: #7289da;
+    margin-bottom: 20px;
+}
+
+footer:not(h2) {
+    font-size: 14px;
 }
 
 /* top part of the footer */
@@ -202,33 +211,42 @@ footer {
 .top-footer {
     justify-content: center;
     align-items: flex-start;
-    padding-top: 10px;
-
-    /* test */
+    padding: 30px 10px 0;
     height: 350px;
 }
 
 .main-col-footer {
-    background-color: lightseagreen;
     width: 36%;
     display: flex;
-
-    /* test */
     height: 90%;
 }
 
 .aside-col-footer {
-    background-color: peru;
     width: 24%;
-
-    /* test */
     height: 90%;
+}
+
+.aside-col-footer img {
+    width: 20px;
+}
+
+.icons-socials {
+    margin-top: 20px;
+}
+
+.icons-socials span {
+    margin: 0 5px;
 }
 
 .little-col-footer {
     width: 25%;
+    padding: 10px;
     height: 100%;
-    border: 1px dashed white;
+}
+
+.little-col-footer li {
+    font-size: 12px;
+    line-height: 20px;
 }
 
 footer hr {
