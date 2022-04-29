@@ -32,13 +32,15 @@ header {
 .button {
     padding: 5px 15px;
     border-radius: 20px;
+    font-size: small;
 }
 
 img {
     width: 100%;
 }
-/* top header */
 
+/* header */
+/* top header */
 
 .top-header {
     background-color: #255ee9;
@@ -97,7 +99,7 @@ ul {
     justify-content: center;
 }
 
-.button.download {
+.button.download-header {
     background-color: white;
     color: black;
     margin-right: 10px;
@@ -108,50 +110,39 @@ ul {
     color: white;
 }
 
-/* main */
+/* main section of the page */
+
 .section {    
     justify-content: center;
     align-items: center;
-
-    /* test */
     height: 400px;
 }
 
 .big-section {
     justify-content: center;
     align-items: center;
-
-    /* test */
     height: 600px;
 }
 
 .grey {
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
-.white {
-    background-color: white;
-}
+/* columns of the sections */
 
 .main-col {
-    background-color: #1e90ff;
     width: 36%;
-
-    /* test */
     height: 80%;
 }
 
 .aside-col {
-    background-color: pink;
     width: 24%;;
-    padding: 10px 30px;
-
-    /* test */
     height: 80%;
+    padding: 10px 35px;
 }
 
 .aside-col h2 {
-    margin: 20px 0;
+    margin: 21px 0;
 }
 
 .aside-col p {
@@ -159,11 +150,43 @@ ul {
 }
 
 .big-col {
-    background-color: green;
     width: 60%;
-
-    /* test */
     height: 90%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.big-col img {
+    width: 80%;
+}
+
+.big-col h2 {
+    margin-bottom: 15px;
+}
+
+.big-col p {
+    font-size: 14px;
+}
+
+.final-part-main {
+    width: 50%;
+    margin: auto;
+}
+
+.final-part-main {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.final-part-main h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.button.download-main {
+    color: white;
+    background-color: #7289da;
 }
 
 /* footer */
@@ -173,6 +196,8 @@ footer {
     /* test */
     height: 450px;
 }
+
+/* top part of the footer */
 
 .top-footer {
     justify-content: center;
@@ -209,6 +234,8 @@ footer {
 footer hr {
     border: 0.5px solid white;
 }
+
+/* bottom part of the footer */
 
 .bottom-footer {
     justify-content: center;
